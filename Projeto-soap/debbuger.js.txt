@@ -1,0 +1,9 @@
+global.x = 5;
+
+setTimeOut(() =>  {
+	debbuger;
+	console.log('World');
+
+}, 1000);
+
+console.log('Hello');

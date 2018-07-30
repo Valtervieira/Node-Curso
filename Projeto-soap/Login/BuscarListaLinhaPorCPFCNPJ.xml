@@ -1,0 +1,402 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:lin="http://www.vivo.com.br/SN/Linha" xmlns:ger="http://www.vivo.com.br/MC/Geral">
+      <ns2:cabecalhoVivo xmlns:ns2="http://www.vivo.com.br/MC/Geral">
+         <ns2:loginUsuario>LojaVirtualPrd</ns2:loginUsuario>
+         <ns2:canalAtendimento>Hybris</ns2:canalAtendimento>
+         <ns2:codigoSessao>1</ns2:codigoSessao>
+         <ns2:nomeAplicacao>VivoIntegracao</ns2:nomeAplicacao>
+         <ns2:token>1</ns2:token>
+         <ns2:enderecoIP>10.128.8.141</ns2:enderecoIP>
+         <ns2:codigoFuncionalidade xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+         <ns2:dataTransacao>2015-10-22T12:28:50.965-02:00</ns2:dataTransacao>
+         <ns2:versao>11.23</ns2:versao>
+      </ns2:cabecalhoVivo>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ass:Linhas xmlns:ass="http://www.vivo.com.br/MC/Assinatura">
+         <ass:linha>
+            <ass:codigo>513237465</ass:codigo>
+            <ass:codigoAssinaturaSistemaOrigem>489485100</ass:codigoAssinaturaSistemaOrigem>
+            <ass:dataAtivacao>2016-04-06T00:00:00.000-03:00</ass:dataAtivacao>
+            <ass:statusAssinatura>
+               <ass:codigo>3484</ass:codigo>
+               <ass:descricao>LINHA EXPIRADA</ass:descricao>
+            </ass:statusAssinatura>
+            <ass:tipoAssinatura>
+               <ass:codigo>9</ass:codigo>
+               <ass:sigla>1</ass:sigla>
+               <ass:descricao>LINHA INDIVIDUAL</ass:descricao>
+               <ass:tecnologia>
+                  <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">GSM</cat:sigla>
+               </ass:tecnologia>
+               <ass:plataforma>
+                  <cat:codigo xmlns:cat="http://www.vivo.com.br/MC/Catalogo">1</cat:codigo>
+                  <cat:nome xmlns:cat="http://www.vivo.com.br/MC/Catalogo">PRÉ-PAGO</cat:nome>
+               </ass:plataforma>
+            </ass:tipoAssinatura>
+            <ass:sistemaOrigem>
+               <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">ATS</cat:sigla>
+            </ass:sistemaOrigem>
+            <ass:conta>
+               <con:codigoContaSistemOrigem xmlns:con="http://www.vivo.com.br/MC/Conta">936541802</con:codigoContaSistemOrigem>
+            </ass:conta>
+            <ass:pessoa>
+               <pes:codigo xmlns:pes="http://www.vivo.com.br/MC/Pessoa">372306194</pes:codigo>
+            </ass:pessoa>
+            <ass:tipoAssinante/>
+            <ass:numeroLinha>1110091187</ass:numeroLinha>
+            <ass:tipoRede>
+               <ger:codigo xmlns:ger="http://www.vivo.com.br/MC/Geral">F</ger:codigo>
+               <ger:descricao xmlns:ger="http://www.vivo.com.br/MC/Geral">FIXO</ger:descricao>
+            </ass:tipoRede>
+            <ass:conjugado>0</ass:conjugado>
+            <ass:digitoVerificador>1</ass:digitoVerificador>
+            <ass:codigoLocalidadeLinha>11000</ass:codigoLocalidadeLinha>
+            <ass:numeroLinhaLegado>10091187</ass:numeroLinhaLegado>
+            <ass:numeroConjugadoLinha>0</ass:numeroConjugadoLinha>
+            <ass:codigoLinhaSistemaOrigem>489485100</ass:codigoLinhaSistemaOrigem>
+            <ass:tipoLinha>
+               <ass:subTiposLinha>
+                  <ass:subTipoLinha>
+                     <ass:codigo>19745</ass:codigo>
+                     <ass:sigla>107770</ass:sigla>
+                     <ass:descricao>LIRS</ass:descricao>
+                  </ass:subTipoLinha>
+               </ass:subTiposLinha>
+            </ass:tipoLinha>
+         </ass:linha>
+         <ass:linha>
+            <ass:codigo>513237465</ass:codigo>
+            <ass:codigoAssinaturaSistemaOrigem>489485100</ass:codigoAssinaturaSistemaOrigem>
+            <ass:dataAtivacao>2016-04-06T00:00:00.000-03:00</ass:dataAtivacao>
+            <ass:statusAssinatura>
+               <ass:codigo>3484</ass:codigo>
+               <ass:descricao>LINHA EXPIRADA</ass:descricao>
+            </ass:statusAssinatura>
+            <ass:tipoAssinatura>
+               <ass:codigo>9</ass:codigo>
+               <ass:sigla>1</ass:sigla>
+               <ass:descricao>LINHA INDIVIDUAL</ass:descricao>
+               <ass:tecnologia>
+                  <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">GSM</cat:sigla>
+               </ass:tecnologia>
+               <ass:plataforma>
+                  <cat:codigo xmlns:cat="http://www.vivo.com.br/MC/Catalogo">1</cat:codigo>
+                  <cat:nome xmlns:cat="http://www.vivo.com.br/MC/Catalogo">PRÉ-PAGO</cat:nome>
+               </ass:plataforma>
+            </ass:tipoAssinatura>
+            <ass:sistemaOrigem>
+               <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">ATS</cat:sigla>
+            </ass:sistemaOrigem>
+            <ass:conta>
+               <con:codigoContaSistemOrigem xmlns:con="http://www.vivo.com.br/MC/Conta">936541802</con:codigoContaSistemOrigem>
+            </ass:conta>
+            <ass:pessoa>
+               <pes:codigo xmlns:pes="http://www.vivo.com.br/MC/Pessoa">372306194</pes:codigo>
+            </ass:pessoa>
+            <ass:tipoAssinante/>
+            <ass:numeroLinha>1110091187</ass:numeroLinha>
+            <ass:tipoRede>
+               <ger:codigo xmlns:ger="http://www.vivo.com.br/MC/Geral">F</ger:codigo>
+               <ger:descricao xmlns:ger="http://www.vivo.com.br/MC/Geral">FIXO</ger:descricao>
+            </ass:tipoRede>
+            <ass:conjugado>0</ass:conjugado>
+            <ass:digitoVerificador>1</ass:digitoVerificador>
+            <ass:codigoLocalidadeLinha>11000</ass:codigoLocalidadeLinha>
+            <ass:numeroLinhaLegado>10091187</ass:numeroLinhaLegado>
+            <ass:numeroConjugadoLinha>0</ass:numeroConjugadoLinha>
+            <ass:codigoLinhaSistemaOrigem>489485100</ass:codigoLinhaSistemaOrigem>
+            <ass:tipoLinha>
+               <ass:subTiposLinha>
+                  <ass:subTipoLinha>
+                     <ass:codigo>19745</ass:codigo>
+                     <ass:sigla>107770</ass:sigla>
+                     <ass:descricao>LIRS</ass:descricao>
+                  </ass:subTipoLinha>
+               </ass:subTiposLinha>
+            </ass:tipoLinha>
+         </ass:linha>
+         <ass:linha>
+            <ass:codigo>576145769</ass:codigo>
+            <ass:codigoAssinaturaSistemaOrigem>741136207</ass:codigoAssinaturaSistemaOrigem>
+            <ass:dataAtivacao>2017-07-17T00:00:00.000-03:00</ass:dataAtivacao>
+            <ass:servicos>
+               <cat:servico xmlns:cat="http://www.vivo.com.br/MC/Catalogo">
+                  <cat:nome>FIB TV + FB BL - IPS</cat:nome>
+                  <cat:tipoServico>
+                     <cat:descricao>TV</cat:descricao>
+                  </cat:tipoServico>
+               </cat:servico>
+            </ass:servicos>
+            <ass:statusAssinatura>
+               <ass:codigo>3485</ass:codigo>
+               <ass:descricao>ATIVO</ass:descricao>
+            </ass:statusAssinatura>
+            <ass:tipoAssinatura>
+               <ass:codigo>9</ass:codigo>
+               <ass:sigla>1</ass:sigla>
+               <ass:descricao>LINHA INDIVIDUAL</ass:descricao>
+               <ass:tecnologia>
+                  <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">GSM</cat:sigla>
+               </ass:tecnologia>
+               <ass:plataforma>
+                  <cat:codigo xmlns:cat="http://www.vivo.com.br/MC/Catalogo">1</cat:codigo>
+                  <cat:nome xmlns:cat="http://www.vivo.com.br/MC/Catalogo">PRÉ-PAGO</cat:nome>
+               </ass:plataforma>
+            </ass:tipoAssinatura>
+            <ass:sistemaOrigem>
+               <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">ATS</cat:sigla>
+            </ass:sistemaOrigem>
+            <ass:conta>
+               <con:codigoContaSistemOrigem xmlns:con="http://www.vivo.com.br/MC/Conta">851529868</con:codigoContaSistemOrigem>
+            </ass:conta>
+            <ass:pessoa>
+               <pes:codigo xmlns:pes="http://www.vivo.com.br/MC/Pessoa">372306194</pes:codigo>
+            </ass:pessoa>
+            <ass:tipoAssinante/>
+            <ass:numeroLinha>1110450829</ass:numeroLinha>
+            <ass:tipoRede>
+               <ger:codigo xmlns:ger="http://www.vivo.com.br/MC/Geral">F</ger:codigo>
+               <ger:descricao xmlns:ger="http://www.vivo.com.br/MC/Geral">FIXO</ger:descricao>
+            </ass:tipoRede>
+            <ass:conjugado>0</ass:conjugado>
+            <ass:digitoVerificador>8</ass:digitoVerificador>
+            <ass:codigoLocalidadeLinha>11000</ass:codigoLocalidadeLinha>
+            <ass:numeroLinhaLegado>10450829</ass:numeroLinhaLegado>
+            <ass:numeroConjugadoLinha>0</ass:numeroConjugadoLinha>
+            <ass:codigoLinhaSistemaOrigem>741136207</ass:codigoLinhaSistemaOrigem>
+            <ass:tipoLinha>
+               <ass:subTiposLinha>
+                  <ass:subTipoLinha>
+                     <ass:codigo>19745</ass:codigo>
+                     <ass:sigla>107770</ass:sigla>
+                     <ass:descricao>LIRS</ass:descricao>
+                  </ass:subTipoLinha>
+               </ass:subTiposLinha>
+            </ass:tipoLinha>
+         </ass:linha>
+         <ass:linha>
+            <ass:codigo>576145769</ass:codigo>
+            <ass:codigoAssinaturaSistemaOrigem>741136207</ass:codigoAssinaturaSistemaOrigem>
+            <ass:dataAtivacao>2017-07-17T00:00:00.000-03:00</ass:dataAtivacao>
+            <ass:servicos>
+               <cat:servico xmlns:cat="http://www.vivo.com.br/MC/Catalogo">
+                  <cat:nome>FIB TV + FB BL - IPS</cat:nome>
+                  <cat:tipoServico>
+                     <cat:descricao>TV</cat:descricao>
+                  </cat:tipoServico>
+               </cat:servico>
+            </ass:servicos>
+            <ass:statusAssinatura>
+               <ass:codigo>3485</ass:codigo>
+               <ass:descricao>ATIVO</ass:descricao>
+            </ass:statusAssinatura>
+            <ass:tipoAssinatura>
+               <ass:codigo>9</ass:codigo>
+               <ass:sigla>1</ass:sigla>
+               <ass:descricao>LINHA INDIVIDUAL</ass:descricao>
+               <ass:tecnologia>
+                  <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">GSM</cat:sigla>
+               </ass:tecnologia>
+               <ass:plataforma>
+                  <cat:codigo xmlns:cat="http://www.vivo.com.br/MC/Catalogo">1</cat:codigo>
+                  <cat:nome xmlns:cat="http://www.vivo.com.br/MC/Catalogo">PRÉ-PAGO</cat:nome>
+               </ass:plataforma>
+            </ass:tipoAssinatura>
+            <ass:sistemaOrigem>
+               <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">ATS</cat:sigla>
+            </ass:sistemaOrigem>
+            <ass:conta>
+               <con:codigoContaSistemOrigem xmlns:con="http://www.vivo.com.br/MC/Conta">851529868</con:codigoContaSistemOrigem>
+            </ass:conta>
+            <ass:pessoa>
+               <pes:codigo xmlns:pes="http://www.vivo.com.br/MC/Pessoa">372306194</pes:codigo>
+            </ass:pessoa>
+            <ass:tipoAssinante/>
+            <ass:numeroLinha>1110450829</ass:numeroLinha>
+            <ass:tipoRede>
+               <ger:codigo xmlns:ger="http://www.vivo.com.br/MC/Geral">F</ger:codigo>
+               <ger:descricao xmlns:ger="http://www.vivo.com.br/MC/Geral">FIXO</ger:descricao>
+            </ass:tipoRede>
+            <ass:conjugado>0</ass:conjugado>
+            <ass:digitoVerificador>8</ass:digitoVerificador>
+            <ass:codigoLocalidadeLinha>11000</ass:codigoLocalidadeLinha>
+            <ass:numeroLinhaLegado>10450829</ass:numeroLinhaLegado>
+            <ass:numeroConjugadoLinha>0</ass:numeroConjugadoLinha>
+            <ass:codigoLinhaSistemaOrigem>741136207</ass:codigoLinhaSistemaOrigem>
+            <ass:tipoLinha>
+               <ass:subTiposLinha>
+                  <ass:subTipoLinha>
+                     <ass:codigo>19745</ass:codigo>
+                     <ass:sigla>107770</ass:sigla>
+                     <ass:descricao>LIRS</ass:descricao>
+                  </ass:subTipoLinha>
+               </ass:subTiposLinha>
+            </ass:tipoLinha>
+         </ass:linha>
+         <ass:linha>
+            <ass:codigo>344289861</ass:codigo>
+            <ass:codigoAssinaturaSistemaOrigem>909412137</ass:codigoAssinaturaSistemaOrigem>
+            <ass:dataAtivacao>2013-06-22T00:00:00.000-03:00</ass:dataAtivacao>
+            <ass:servicos>
+               <cat:servico xmlns:cat="http://www.vivo.com.br/MC/Catalogo">
+                  <cat:nome>FIBRA B LARGA - APT DSI F00 - FIBRA BANDA LARGA 100MB (R)</cat:nome>
+                  <cat:tipoServico>
+                     <cat:descricao>Banda Larga</cat:descricao>
+                  </cat:tipoServico>
+               </cat:servico>
+            </ass:servicos>
+            <ass:statusAssinatura>
+               <ass:codigo>3484</ass:codigo>
+               <ass:descricao>LINHA EXPIRADA</ass:descricao>
+            </ass:statusAssinatura>
+            <ass:tipoAssinatura>
+               <ass:codigo>9</ass:codigo>
+               <ass:sigla>1</ass:sigla>
+               <ass:descricao>LINHA INDIVIDUAL</ass:descricao>
+               <ass:tecnologia>
+                  <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">GSM</cat:sigla>
+               </ass:tecnologia>
+               <ass:plataforma>
+                  <cat:codigo xmlns:cat="http://www.vivo.com.br/MC/Catalogo">1</cat:codigo>
+                  <cat:nome xmlns:cat="http://www.vivo.com.br/MC/Catalogo">PRÉ-PAGO</cat:nome>
+               </ass:plataforma>
+            </ass:tipoAssinatura>
+            <ass:sistemaOrigem>
+               <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">ATS</cat:sigla>
+            </ass:sistemaOrigem>
+            <ass:conta>
+               <con:codigoContaSistemOrigem xmlns:con="http://www.vivo.com.br/MC/Conta">882544930</con:codigoContaSistemOrigem>
+            </ass:conta>
+            <ass:pessoa>
+               <pes:codigo xmlns:pes="http://www.vivo.com.br/MC/Pessoa">372306194</pes:codigo>
+            </ass:pessoa>
+            <ass:tipoAssinante/>
+            <ass:numeroLinha>1132557553</ass:numeroLinha>
+            <ass:tipoRede>
+               <ger:codigo xmlns:ger="http://www.vivo.com.br/MC/Geral">F</ger:codigo>
+               <ger:descricao xmlns:ger="http://www.vivo.com.br/MC/Geral">FIXO</ger:descricao>
+            </ass:tipoRede>
+            <ass:conjugado>0</ass:conjugado>
+            <ass:digitoVerificador>1</ass:digitoVerificador>
+            <ass:codigoLocalidadeLinha>11000</ass:codigoLocalidadeLinha>
+            <ass:numeroLinhaLegado>32557553</ass:numeroLinhaLegado>
+            <ass:numeroConjugadoLinha>0</ass:numeroConjugadoLinha>
+            <ass:codigoLinhaSistemaOrigem>909412137</ass:codigoLinhaSistemaOrigem>
+            <ass:tipoLinha>
+               <ass:subTiposLinha>
+                  <ass:subTipoLinha>
+                     <ass:codigo>6613</ass:codigo>
+                     <ass:sigla>100008</ass:sigla>
+                     <ass:descricao>LINHA INTERNET RES</ass:descricao>
+                  </ass:subTipoLinha>
+               </ass:subTiposLinha>
+            </ass:tipoLinha>
+         </ass:linha>
+         <ass:linha>
+            <ass:codigo>344289861</ass:codigo>
+            <ass:codigoAssinaturaSistemaOrigem>909412137</ass:codigoAssinaturaSistemaOrigem>
+            <ass:dataAtivacao>2013-06-22T00:00:00.000-03:00</ass:dataAtivacao>
+            <ass:servicos>
+               <cat:servico xmlns:cat="http://www.vivo.com.br/MC/Catalogo">
+                  <cat:nome>FIBRA B LARGA - APT DSI F00 - FIBRA BANDA LARGA 100MB (R)</cat:nome>
+                  <cat:tipoServico>
+                     <cat:descricao>Banda Larga</cat:descricao>
+                  </cat:tipoServico>
+               </cat:servico>
+            </ass:servicos>
+            <ass:statusAssinatura>
+               <ass:codigo>3484</ass:codigo>
+               <ass:descricao>LINHA EXPIRADA</ass:descricao>
+            </ass:statusAssinatura>
+            <ass:tipoAssinatura>
+               <ass:codigo>9</ass:codigo>
+               <ass:sigla>1</ass:sigla>
+               <ass:descricao>LINHA INDIVIDUAL</ass:descricao>
+               <ass:tecnologia>
+                  <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">GSM</cat:sigla>
+               </ass:tecnologia>
+               <ass:plataforma>
+                  <cat:codigo xmlns:cat="http://www.vivo.com.br/MC/Catalogo">1</cat:codigo>
+                  <cat:nome xmlns:cat="http://www.vivo.com.br/MC/Catalogo">PRÉ-PAGO</cat:nome>
+               </ass:plataforma>
+            </ass:tipoAssinatura>
+            <ass:sistemaOrigem>
+               <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">ATS</cat:sigla>
+            </ass:sistemaOrigem>
+            <ass:conta>
+               <con:codigoContaSistemOrigem xmlns:con="http://www.vivo.com.br/MC/Conta">882544930</con:codigoContaSistemOrigem>
+            </ass:conta>
+            <ass:pessoa>
+               <pes:codigo xmlns:pes="http://www.vivo.com.br/MC/Pessoa">372306194</pes:codigo>
+            </ass:pessoa>
+            <ass:tipoAssinante/>
+            <ass:numeroLinha>1132557553</ass:numeroLinha>
+            <ass:tipoRede>
+               <ger:codigo xmlns:ger="http://www.vivo.com.br/MC/Geral">F</ger:codigo>
+               <ger:descricao xmlns:ger="http://www.vivo.com.br/MC/Geral">FIXO</ger:descricao>
+            </ass:tipoRede>
+            <ass:conjugado>0</ass:conjugado>
+            <ass:digitoVerificador>1</ass:digitoVerificador>
+            <ass:codigoLocalidadeLinha>11000</ass:codigoLocalidadeLinha>
+            <ass:numeroLinhaLegado>32557553</ass:numeroLinhaLegado>
+            <ass:numeroConjugadoLinha>0</ass:numeroConjugadoLinha>
+            <ass:codigoLinhaSistemaOrigem>909412137</ass:codigoLinhaSistemaOrigem>
+            <ass:tipoLinha>
+               <ass:subTiposLinha>
+                  <ass:subTipoLinha>
+                     <ass:codigo>6613</ass:codigo>
+                     <ass:sigla>100008</ass:sigla>
+                     <ass:descricao>LINHA INTERNET RES</ass:descricao>
+                  </ass:subTipoLinha>
+               </ass:subTiposLinha>
+            </ass:tipoLinha>
+         </ass:linha>
+         <ass:linha>
+            <ass:codigo>414540556</ass:codigo>
+            <ass:codigoAssinaturaSistemaOrigem>0219447790</ass:codigoAssinaturaSistemaOrigem>
+            <ass:dataAtivacao>2014-07-03T00:00:00.000-03:00</ass:dataAtivacao>
+            <ass:plano>
+               <cat:codigoPlanoSistemaOrigem xmlns:cat="http://www.vivo.com.br/MC/Catalogo">PLSMT4GB2016C</cat:codigoPlanoSistemaOrigem>
+               <cat:nome xmlns:cat="http://www.vivo.com.br/MC/Catalogo">VIVO POS 6GB</cat:nome>
+            </ass:plano>
+            <ass:statusAssinatura>
+               <ass:codigo>1</ass:codigo>
+               <ass:descricao>ATIVO</ass:descricao>
+            </ass:statusAssinatura>
+            <ass:tipoAssinatura>
+               <ass:codigo>5</ass:codigo>
+               <ass:sigla>POSCHIP</ass:sigla>
+               <ass:descricao>POS-PAGO GSM</ass:descricao>
+               <ass:tecnologia>
+                  <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">GSM</cat:sigla>
+               </ass:tecnologia>
+               <ass:plataforma>
+                  <cat:codigo xmlns:cat="http://www.vivo.com.br/MC/Catalogo">2</cat:codigo>
+                  <cat:nome xmlns:cat="http://www.vivo.com.br/MC/Catalogo">PÓS-PAGO</cat:nome>
+               </ass:plataforma>
+            </ass:tipoAssinatura>
+            <ass:sistemaOrigem>
+               <cat:sigla xmlns:cat="http://www.vivo.com.br/MC/Catalogo">ATY</cat:sigla>
+            </ass:sistemaOrigem>
+            <ass:conta>
+               <con:codigoContaSistemOrigem xmlns:con="http://www.vivo.com.br/MC/Conta">2133820952</con:codigoContaSistemOrigem>
+            </ass:conta>
+            <ass:pessoa>
+               <pes:codigo xmlns:pes="http://www.vivo.com.br/MC/Pessoa">2057658035</pes:codigo>
+            </ass:pessoa>
+            <ass:tipoAssinante>
+               <ass:codigo>F</ass:codigo>
+            </ass:tipoAssinante>
+            <ass:numeroLinha>11973263378</ass:numeroLinha>
+            <ass:tipoRede>
+               <ger:codigo xmlns:ger="http://www.vivo.com.br/MC/Geral">M</ger:codigo>
+               <ger:descricao xmlns:ger="http://www.vivo.com.br/MC/Geral">MOVEL</ger:descricao>
+            </ass:tipoRede>
+            <ass:codigoLocalidadeLinha>11732</ass:codigoLocalidadeLinha>
+            <ass:numeroLinhaLegado>63378</ass:numeroLinhaLegado>
+            <ass:codigoLinhaSistemaOrigem>0219447790</ass:codigoLinhaSistemaOrigem>
+         </ass:linha>
+      </ass:Linhas>
+   </soapenv:Body>
+</soapenv:Envelope>

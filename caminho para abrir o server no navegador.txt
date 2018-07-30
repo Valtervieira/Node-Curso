@@ -1,0 +1,9 @@
+node --inspect index.js
+
+chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=PATH-DO-PROMPT
+
+substituir o 
+PATH-DO-PROMPT
+o que o caminho que o node lhe der:
+ex:
+chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:9229/913d78c9-5b5e-4b80-9395-74a5359c350f
